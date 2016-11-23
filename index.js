@@ -49,6 +49,10 @@ class AmTapeDot extends Transform {
             if (str !== '') this.extra.push(str);
         });
 
+        this.on('dot-line-break', () => {
+            counter = this.options.dotsPerLine;
+        });
+
         this.on('finish', () => this.parser.end());
     }
 
