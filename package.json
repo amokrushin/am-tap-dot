@@ -1,0 +1,32 @@
+{
+  "name": "am-tap-dot",
+  "version": "0.1.0",
+  "description": "Human-readable TAP reporter",
+  "keywords": [
+    "reporter",
+    "tap",
+    "tape"
+  ],
+  "homepage": "https://github.com/amokrushin/am-tap-dot#readme",
+  "bugs": {
+    "url": "https://github.com/amokrushin/am-tap-dot/issues"
+  },
+  "license": "MIT",
+  "author": "Anton Mokrushin <anton@mokr.org> (mokr.org)",
+  "main": "index.js",
+  "bin": {
+    "am-tap-dot": "cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amokrushin/am-tap-dot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash": "^4.17.2",
+    "tap-out": "^1.4.2"
+  }
+}
