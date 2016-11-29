@@ -15,14 +15,14 @@
   "author": "Anton Mokrushin <anton@mokr.org> (mokr.org)",
   "main": "index.js",
   "bin": {
-    "am-tap-dot": "cmd.js"
+    "am-tap-dot": "./bin/cmd.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amokrushin/am-tap-dot.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "dependencies": {
     "chalk": "^1.1.3",
