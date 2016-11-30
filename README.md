@@ -5,7 +5,7 @@ Human-readable dots style TAP reporter
 
 **Passed tests**
 <p align="center">
-    <img src="http://i.imgur.com/tEOquPR.png" alt="Passed tests"/>
+    <img src="http://i.imgur.com/H22GKqW.png" alt="Passed tests"/>
 </p>
 
 **Failed tests**
